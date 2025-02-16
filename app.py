@@ -2,6 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
+import pickle
 
 # Load the trained CatBoost model
 model = joblib.load("final_catboost_model.pkl")
