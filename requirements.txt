@@ -2,9 +2,7 @@ streamlit
 joblib
 numpy
 pandas
-pickle
 imbalanced-learn
 category_encoders
 catboost
-sklearn
 scikit-learn
