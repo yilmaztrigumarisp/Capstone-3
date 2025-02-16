@@ -6,3 +6,5 @@ pickle
 imbalanced-learn
 category_encoders
 catboost
+sklearn
+scikit-learn
