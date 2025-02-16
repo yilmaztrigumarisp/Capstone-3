@@ -4,8 +4,10 @@ import numpy as np
 import pandas as pd
 
 # Load the trained CatBoost model
-model = joblib.load("final_catboost_model.pkl")
-
+# model = joblib.load("final_catboost_model.pkl")
+with open(r'final_catboost_model.pkl', 'rb') as f:
+    model = pickle.load(f)
+    
 # App Title
 st.title("🏡 California House Price Prediction")
 
