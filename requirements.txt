@@ -1,6 +1,6 @@
 streamlit
 joblib
-numpy
-imblearn
+numpy==1.23.5
+imbalanced-learn
 category_encoders
-catboost
+catboost==1.2
