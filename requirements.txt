@@ -1,6 +1,8 @@
 streamlit
 joblib
-numpy==1.23.5
+numpy
+pandas
+pickle
 imbalanced-learn
 category_encoders
-catboost==1.2
+catboost
