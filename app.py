@@ -48,7 +48,7 @@ class FeatureEngineer(BaseEstimator, TransformerMixin):
         return pd.concat([X, ocean_proximity], axis=1)
 
 # Load pipeline
-pipeline = joblib.load('california_housing_model.sav')
+pipeline = joblib.load('california_housing_model_final.sav')
 
 # Streamlit UI
 st.title('🏠 California House Price Prediction')
