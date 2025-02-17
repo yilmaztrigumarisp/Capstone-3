@@ -41,7 +41,7 @@ class FeatureEngineer(BaseEstimator, TransformerMixin):
 
 # Load saved components
 full_pipeline = joblib.load('full_pipeline.sav')
-model = joblib.load('catboost_model.sav')
+model = joblib.load('catboost_model_compressed.sav')
 
 # Streamlit UI
 st.title('California Housing Price Predictor')
