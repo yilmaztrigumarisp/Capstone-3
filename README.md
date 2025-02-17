@@ -44,4 +44,4 @@ Training Time: ~1,522 sec
 1. For real estate investors: Use the model to identify undervalued areas with strong price growth potential.
 2. For policymakers: Leverage insights from the model to assess housing affordability trends and plan urban development.
 
-Try the Streamlit App: 👉 [Insert Your Link Here]
+Try the Streamlit App: 👉 (https://capstone-3-yilmaz-trigumari-sp.streamlit.app/)
