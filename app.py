@@ -75,16 +75,50 @@ input_data = pd.DataFrame({
     'ocean_proximity': [ocean_proximity]
 })
 
-# Preprocess and predict
+# # Preprocess and predict
+# if st.button('Predict Price'):
+#     try:
+#         # Transform input
+#         processed_data = full_pipeline.transform(input_data)
+        
+#         # Make prediction
+#         prediction = model.predict(processed_data)[0]
+        
+#         # Display result
+#         st.success(f'Predicted Median House Value: ${prediction*100000:,.2f}')
+#     except Exception as e:
+#         st.error(f'Error in prediction: {str(e)}')
+
+# ... [Previous code remains the same until loading the pipeline]
+
+# # Load saved components
+# full_pipeline = joblib.load('full_pipeline.sav')
+# model = joblib.load('catboost_model_compressed.sav')
+
+# Debugging: Check if median_values are loaded properly
+try:
+    # Adjust the step name if necessary (e.g., if FeatureEngineer is nested)
+    feature_engineer = full_pipeline.named_steps['feature_engineer']
+    st.write("Median values in loaded pipeline:", feature_engineer.median_values)
+except Exception as e:
+    st.error(f"Error accessing FeatureEngineer: {e}")
+
+# Streamlit UI remains the same...
+
 if st.button('Predict Price'):
     try:
+        # Check input_data before transformation
+        st.write("Input Data:", input_data)
+        
         # Transform input
         processed_data = full_pipeline.transform(input_data)
+        st.write("Processed Data:", processed_data)
         
         # Make prediction
         prediction = model.predict(processed_data)[0]
-        
-        # Display result
         st.success(f'Predicted Median House Value: ${prediction*100000:,.2f}')
     except Exception as e:
         st.error(f'Error in prediction: {str(e)}')
+        # Additional debug info
+        import traceback
+        st.error(traceback.format_exc())
