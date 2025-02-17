@@ -1,8 +1,6 @@
 streamlit
-joblib
-numpy
-pandas
-imbalanced-learn
-category_encoders
-catboost
 scikit-learn
+catboost
+pandas
+numpy
+joblib
