@@ -16,4 +16,5 @@ As Gamma International still depends on traditional evaluation methods, which ar
 To overcome these challenges, Gamma International is planned to integrate data-driven decision-making and machine learning models into their HR processes. By leveraging historical employee data, the company can enhance the accuracy of promotion decisions, ensuring that deserving employees are recognized, and automate the promotion decision which lead to faster decision making.
 
 Streamlit: ([Streamlit Employee Promotion](https://group-gamma-promotion-prediction.streamlit.app/))
+
 Tableau: ([Tableau Visualization]([https://group-gamma-promotion-prediction.streamlit.app/](https://public.tableau.com/views/HRAnalyticsPromotionPredictionUsingMachineLearningatGammaInternational/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)))
