@@ -17,4 +17,4 @@ To overcome these challenges, Gamma International is planned to integrate data-d
 
 Streamlit: ([Streamlit Employee Promotion](https://group-gamma-promotion-prediction.streamlit.app/))
 
-Tableau: ([Tableau Visualization](https://group-gamma-promotion-prediction.streamlit.app/](https://public.tableau.com/views/HRAnalyticsPromotionPredictionUsingMachineLearningatGammaInternational/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+Tableau: ([Tableau Visualization](https://group-gamma-promotion-prediction.streamlit.app/](https://public.tableau.com/views/HRAnalyticsPromotionPredictionUsingMachineLearningatGammaInternational/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)))
